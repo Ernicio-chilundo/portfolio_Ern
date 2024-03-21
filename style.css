@@ -15,6 +15,16 @@ body {
     display: flex;
 }
 
+h2.titulo {
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span {
+    color: #00ff08;
+}
+
 .btn_contato button {
     padding: 10px 40px;
     font-size: 18px;
@@ -113,3 +123,34 @@ section.topo_do-site .flex {
 }
 
 /* ESTILO DAS AS ESPECIALIDADES*/
+section.especialidades {
+    padding: 40px 4%;
+}
+
+section.especialidades .flex {
+    gap: 60px;
+}
+
+.especialidades .especialidades_box {
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2S;
+
+}
+
+.especialidades .especialidades_box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #fffFFF78;
+}
+
+.especialidades .especialidades_box i {
+    font-size : 70px; 
+    color: #00FF08;
+}
+
+.especialidades .especialidades_box h3 {
+    font-size: 28px;
+    margin: 28px 0;
+}
