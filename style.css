@@ -22,7 +22,7 @@ h2.titulo {
 }
 
 h2.titulo span {
-    color: rgb(0, 210, 255);
+    color: #48D1CC;
 }
 
 
@@ -34,7 +34,7 @@ h2.titulo span {
 
 button:hover,
 form .btn_enviar input:hover {
-    box-shadow: 0px 0px 8px #00ff08;
+    box-shadow: 0px 0px 8px #48D1CC;
     transform: scale(1.05);
 }
 
@@ -75,7 +75,7 @@ header nav ul li {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #00FF08;
+    background-color: #48D1CC;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -102,7 +102,7 @@ section.topo_do-site .flex {
 }
 
 .topo_do-site .txt_topo-site h1 span {
-    color: #00FF08;
+    color: #48D1CC;
 }
 
 .topo_do-site .txt_topo-site p {
@@ -157,7 +157,7 @@ section.especialidades .flex {
 
 .especialidades .especialidades_box i {
     font-size: 70px;
-    color: #00FF08;
+    color: #48D1CC;
 }
 
 .especialidades .especialidades_box h3 {
@@ -186,7 +186,7 @@ section.sobre .flex {
 }
 
 .sobre .txt_sobre h2 span {
-    color: #00FF08;
+    color: #48d1cc;
     display: block;
 }
 
@@ -198,7 +198,7 @@ section.sobre .flex {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: #00FF08;
+    background-color: #48D1CC;
     font-size: 22px;
     cursor: pointer;
     margin: 0 5px;
@@ -295,7 +295,7 @@ form .btn_enviar {
 form .btn_enviar input {
     width: 120px;
     color: #000;
-    background-color: #00FF08;
+    background-color: #48D1CC;
     cursor: pointer;
     font-weight: 700;
     transition: .2s;
@@ -318,11 +318,11 @@ footer .line_footer {
 }
 
 .borda {
-    border-top: 2px solid #00FF08;
+    border-top: 2px solid #48D1CC;
 }
 
 footer .line_footer p i {
-    color: #00FF08;
+    color: #48D1CC;
     font-size: 22px;
 
 }
