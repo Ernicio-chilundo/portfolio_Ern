@@ -1,5 +1,5 @@
 /* ESTILO GERAL */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,7 +11,7 @@ body {
     height: 100vh;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
@@ -22,7 +22,7 @@ h2.titulo {
 }
 
 h2.titulo span {
-    color: #00ff08;
+    color: rgb(0, 210, 255);
 }
 
 
@@ -32,7 +32,8 @@ h2.titulo span {
 }
 
 
-button:hover, form .btn_enviar input:hover{
+button:hover,
+form .btn_enviar input:hover {
     box-shadow: 0px 0px 8px #00ff08;
     transform: scale(1.05);
 }
@@ -43,7 +44,7 @@ header {
     padding: 40px 4%;
 }
 
-header> .interface {
+header>.interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -110,6 +111,11 @@ section.topo_do-site .flex {
 
 }
 
+.img_topo-site img {
+    width: 427px;
+    height: 465px;
+}
+
 .topo_do-site .img_topo-site img {
     position: relative;
     animation: na_lua 2s ease-in-out infinite alternate;
@@ -117,11 +123,12 @@ section.topo_do-site .flex {
 }
 
 @keyframes na_lua {
-    0%{
+    0% {
         top: 0;
     }
-    100%{
-        top: 30px;
+
+    100% {
+        top: 35px;
     }
 }
 
@@ -149,7 +156,7 @@ section.especialidades .flex {
 }
 
 .especialidades .especialidades_box i {
-    font-size : 70px; 
+    font-size: 70px;
     color: #00FF08;
 }
 
@@ -172,7 +179,7 @@ section.sobre .flex {
     color: #fff;
 }
 
-.sobre .txt_sobre h2{
+.sobre .txt_sobre h2 {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 30px;
@@ -183,7 +190,7 @@ section.sobre .flex {
     display: block;
 }
 
-.sobre .txt_sobre p{
+.sobre .txt_sobre p {
     margin: 20px;
 }
 
@@ -263,7 +270,8 @@ form {
     margin-top: 40px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     width: 100%;
     background-color: #242424;
     border: none;
@@ -284,7 +292,7 @@ form .btn_enviar {
     text-align: center;
 }
 
-form .btn_enviar input{
+form .btn_enviar input {
     width: 120px;
     color: #000;
     background-color: #00FF08;
@@ -321,4 +329,89 @@ footer .line_footer p i {
 
 footer .line_footer p a {
     color: #fff;
+}
+
+
+@media screen and (max-width: 1020px) {
+
+    /* CLASSES GERAIS */
+    .flex {
+        flex-direction: column-reverse;
+    }
+
+    h2.titulo {
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    /* CABECALHO */
+    .menu_desktop,
+    .btn_contato {
+        display: none;
+    }
+
+    /* TOPO DO SITE */
+    section.topo_do-site .flex {
+        gap: 40px;
+    }
+
+    section.topo_do-site {
+        padding: 20px 8%;
+    }
+
+    .topo_do-site h1 {
+        font-size: 30px;
+    }
+
+    .topo_do-site .img_topo-site img {
+        width: 100%;
+    }
+
+    /* ESTILO DAS AS ESPECIALIDADES*/
+    section.especialidades {
+        padding: 40px 8%;
+    }
+
+    /* ESTILO DO SOBRE*/
+    section.sobre {
+        padding: 80px 8%;
+    }
+
+    .sobre .txt_sobre h2 {
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .btn_social {
+        text-align: center;
+    }
+
+    .img_sobre img {
+        width: 100%;
+    }
+
+    /* PORTFOLIO */
+    section.portfolio {
+        padding: 80px 8%;
+    }
+
+    .img_port {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+        
+    }
+    
+    section.portfolio .flex {
+        gap: 60px;
+    }
+
+    footer .flex{
+        flex-direction: column;
+    }
+
+    footer .line_footer {
+        text-align: center;
+    }
 }
