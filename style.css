@@ -57,7 +57,7 @@ header a {
     transition: .2s;
 }
 
-header a:hover {
+header nav.menu_desktop a:hover {
     color: #fff;
     transform: scale(1.05);
 }
@@ -66,9 +66,51 @@ header nav ul {
     list-style-type: none;
 }
 
-header nav ul li {
+header nav.menu_desktop ul li {
     display: inline-block;
     padding: 0 40px;
+}
+
+/* ESTILO DO MENU MOBILE */
+.btn_abrir-menu {
+    color: #48D1CC;
+    font-size: 40px;
+}
+
+.menu_mobile {
+    background-color: #000;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 35;
+    width: 0%;
+}
+
+.menu_mobile .btn_fechar {
+    padding: 20px 5%;
+}
+
+.menu_mobile .btn_fechar i {
+    color: #48D1CC;
+    font-size: 30px;
+}
+
+.menu_mobile nav ul {
+    text-align: right;
+}
+
+.menu_mobile nav ul li a {
+    color: fff;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 8%;
+    display: block;
+}
+
+.menu_mobile nav ul li a:hover {
+    background-color: #48D1CC;
+    color: #000;
 }
 
 .btn_contato button {
@@ -415,3 +457,4 @@ footer .line_footer p a {
         text-align: center;
     }
 }
+/* ≡  */
