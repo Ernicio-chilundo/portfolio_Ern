@@ -85,6 +85,15 @@ header nav.menu_desktop ul li {
     right: 0;
     z-index: 35;
     width: 0%;
+    transition: .5s;
+}
+
+.menu_mobile.abrir_menu {
+    width: 70%;
+}
+
+.menu_mobile.abrir_menu ~ .overlay_menu {
+    display: block;
 }
 
 .menu_mobile .btn_fechar {
@@ -111,6 +120,18 @@ header nav.menu_desktop ul li {
 .menu_mobile nav ul li a:hover {
     background-color: #48D1CC;
     color: #000;
+}
+
+.overlay_menu {
+    background-color: #000000d7;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 34;
+    display: none;
+
 }
 
 .btn_contato button {

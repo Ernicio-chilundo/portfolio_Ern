@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="img/fivicon.png">
+    <script src="menu.js" defer></script>
     <!--GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,11 +40,11 @@
                 </a>
             </div><!--btn_contato-->
 
-            <div class="btn_abrir-menu">
+            <div class="btn_abrir-menu" id="btn_menu">
                 <i class="bi bi-list"></i>
             </div>
 
-            <div class="menu_mobile">
+            <div class="menu_mobile" id="menu_mobile">
                 <div class="btn_fechar">
                     <i class="bi bi-x-lg"></i>
                 </div><!--btn_fechar-->
@@ -57,6 +58,8 @@
                     </ul>
                 </nav>
             </div><!--menu_mobile-->
+
+            <div class="overlay_menu" id="overlay_menu"></div>
 
         </div><!--interface-->
     </header>
