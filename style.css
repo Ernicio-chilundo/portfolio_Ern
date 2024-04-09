@@ -13,6 +13,7 @@ body {
 
 .flex {
     display: flex;
+    
 }
 
 .scroll_reveal-topo, 
@@ -22,7 +23,15 @@ body {
  .efito_especialidade1,
  .efito_especialidade2,
  .scroll_img-reveal,
- .scroll_reveal-sobre{
+ .scroll_reveal-sobre,
+ .scroll_reveal-portfolio,
+ .scroll_reveal-portfolio1,
+ .scroll_reveal-portfolio2,
+ .scroll_reveal-formulario,
+ .scroll_reveal-formulario1,
+ .scroll_reveal-formulario2,
+ .scroll_reveal-formulario3,
+ .scroll_reveal-formulario4{
     visibility: hidden;
 }
 
