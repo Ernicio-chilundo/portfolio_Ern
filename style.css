@@ -15,6 +15,17 @@ body {
     display: flex;
 }
 
+.scroll_reveal-topo, 
+.scroll_reveal-img,
+ .titulo,
+ .efito_especialidade,
+ .efito_especialidade1,
+ .efito_especialidade2,
+ .scroll_img-reveal,
+ .scroll_reveal-sobre{
+    visibility: hidden;
+}
+
 h2.titulo {
     color: #fff;
     font-size: 38px;
